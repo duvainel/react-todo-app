@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background: #f8f9fa;
+  width: 1000px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 1rem 4rem 0.3rem hsla(0, 0%, 15.7%, 0.26);
+}
+
+@media screen and (max-width: 800px) {
+  #root {
+    margin: 2rem 1rem;
+  }
+}
+
+body {
+  background: #b8bedd;
+  margin: 0;
+  display: flex;
+  min-width: 360;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 1em 1.2em;
+  outline: none;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+button {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+button > svg {
+  width: 25px;
+  height: 25px;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+::-moz-selection {
+  background-color: #6d6c6c;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6d6c6c;
+  color: #fff;
+}
