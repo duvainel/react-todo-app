@@ -1,0 +1,33 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: #fca50042;
+  border-radius: 50px;
+}
+
+.ti-right,
+.ti-left {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  font-size: 24px;
+  padding-right: 0.5rem;
+}
+
+.delete-icon > svg:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.ti-left > span {
+  margin-left: 10px;
+}
