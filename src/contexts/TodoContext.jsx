@@ -7,7 +7,7 @@ export const TodoProvider = (props) => {
   const savedTodos = JSON.parse(localStorage.getItem("todos"));
   const [todos, setTodos] = useState(savedTodos || []);
   const [form, setForm] = useState({ todo: "" });
-  console.log(todos);
+
   return (
     <TodoContext.Provider
       value={{
