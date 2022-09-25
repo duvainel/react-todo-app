@@ -7,6 +7,8 @@ This Todo App built with [Vite](https://vitejs.dev/) + [React](https://reactjs.o
 - [React](https://reactjs.org/)
 - [Context API](https://reactjs.org/docs/context.html) for state management
 
+<img width="1280" alt="Screen Shot 2022-06-18 at 01 29 33" src="https://raw.githubusercontent.com/duvainel/react-todo-app/main/src/assets/app-image.png">
+
 ## Usage
 
 ### Install dependencies
