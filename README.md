@@ -1,11 +1,10 @@
-# ToDo List
+# React Todo App
 
 This Todo App built with [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) that stores your tasks.
 
 ## Project Details
 
 - [React](https://reactjs.org/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Context API](https://reactjs.org/docs/context.html) for state management
 
 ## Usage
